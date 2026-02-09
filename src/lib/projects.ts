@@ -31,9 +31,13 @@ export function getProjects(): Project[] {
   const dataPath = path.join(process.cwd(), "data", "projects.json");
   const raw = fs.readFileSync(dataPath, "utf8");
   const parsed = JSON.parse(raw) as { projects: Project[] };
-  return parsed.projects;
+  return parsed.projects.map((project) => ({
+    ...project,
+    slug: project.slug.trim().toLowerCase(),
+  }));
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {
-  return getProjects().find((project) => project.slug === slug);
+  const normalized = slug.trim().toLowerCase();
+  return getProjects().find((project) => project.slug === normalized);
 }
