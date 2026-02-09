@@ -1,4 +1,4 @@
-﻿{
+{
   "projects": [
     {
       "slug": "desktop-robot-arm",
@@ -184,7 +184,7 @@
       "sections": {
         "overview": "Inspired by wrist differential mechanisms, this head control system achieves nod and spin using two motors.",
         "build": "Designed in Fusion 360, rapidly prototyped via 3D printing, and controlled using Python.",
-        "design": "Opposite motor rotation results in nodding; same direction rotation results in spinning. 2:1 gear ratio with 360° rotation range.",
+        "design": "Opposite motor rotation results in nodding; same direction rotation results in spinning. 2:1 gear ratio with 360\u00b0 rotation range.",
         "results": "Demonstrated 2-DOF motion with a compact differential mechanism.",
         "futureWork": "TODO: add integration plans with torso and sensors."
       },
