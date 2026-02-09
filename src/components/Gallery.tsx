@@ -37,7 +37,13 @@ export default function Gallery({ images }: { images: GalleryImage[] }) {
             onClick={() => setActiveIndex(index)}
           >
             <div className="relative h-48 w-full">
-              <Image src={img.thumb} alt={img.alt} fill className="object-cover" />
+              <Image
+                src={img.thumb}
+                alt={img.alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
             </div>
           </button>
         ))}
