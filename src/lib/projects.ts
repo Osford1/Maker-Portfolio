@@ -46,7 +46,8 @@ export function getProjects(): Project[] {
   });
 }
 
-export function getProjectBySlug(slug: string): Project | undefined {
-  const normalized = slug.trim().toLowerCase();
+export function getProjectBySlug(slug?: string): Project | undefined {
+  if (!slug) return undefined;
+  const normalized = String(slug).trim().toLowerCase();
   return getProjects().find((project) => project.slug === normalized);
 }
