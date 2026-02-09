@@ -27,7 +27,7 @@ export default function OpenGraphImage() {
       >
         <div style={{ fontSize: 64, fontWeight: 800 }}>Teo Yu Dong</div>
         <div style={{ fontSize: 40, fontWeight: 700 }}>Maker Portfolio</div>
-        <div style={{ fontSize: 28 }}>Robotics • Fabrication • Prototyping</div>
+        <div style={{ fontSize: 28 }}>Robotics - Fabrication - Prototyping</div>
         <div
           style={{
             marginTop: 20,
