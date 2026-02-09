@@ -1,0 +1,216 @@
+{
+  "desktop-robot-arm": {
+    "images": [
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-01.png",
+        "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-01.jpg"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-02.png",
+        "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-02.jpg"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-03.png",
+        "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-03.jpg"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-04.png",
+        "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-04.jpg"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-05.png",
+        "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-05.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-video-01.mp4"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-video-02.mp4"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-video-03.mp4"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-video-04.mp4"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-video-05.mp4"
+      },
+      {
+        "src": "/media/desktop-robot-arm/desktop-robot-arm-video-06.mp4"
+      }
+    ]
+  },
+  "humanoid-torso": {
+    "images": [
+      {
+        "src": "/media/humanoid-torso/humanoid-torso-01.png",
+        "thumb": "/media/humanoid-torso/thumbs/humanoid-torso-01.jpg"
+      },
+      {
+        "src": "/media/humanoid-torso/humanoid-torso-02.png",
+        "thumb": "/media/humanoid-torso/thumbs/humanoid-torso-02.jpg"
+      },
+      {
+        "src": "/media/humanoid-torso/humanoid-torso-03.png",
+        "thumb": "/media/humanoid-torso/thumbs/humanoid-torso-03.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/media/humanoid-torso/humanoid-torso-video-01.mp4"
+      }
+    ]
+  },
+  "humanoid-head-mechanism": {
+    "images": [
+      {
+        "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-01.png",
+        "thumb": "/media/humanoid-head-mechanism/thumbs/humanoid-head-mechanism-01.jpg"
+      },
+      {
+        "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-02.png",
+        "thumb": "/media/humanoid-head-mechanism/thumbs/humanoid-head-mechanism-02.jpg"
+      },
+      {
+        "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-03.png",
+        "thumb": "/media/humanoid-head-mechanism/thumbs/humanoid-head-mechanism-03.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-video-01.mp4"
+      }
+    ]
+  },
+  "obstacle-avoiding-robot": {
+    "images": [
+      {
+        "src": "/media/obstacle-avoiding-robot/obstacle-avoiding-robot-01.png",
+        "thumb": "/media/obstacle-avoiding-robot/thumbs/obstacle-avoiding-robot-01.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/media/obstacle-avoiding-robot/obstacle-avoiding-robot-video-01.mp4"
+      }
+    ]
+  },
+  "vision-guiding-robot": {
+    "images": [],
+    "videos": [
+      {
+        "src": "/media/vision-guiding-robot/vision-guiding-robot-video-01.mp4"
+      }
+    ]
+  },
+  "cnc-bottle-opener": {
+    "images": [
+      {
+        "src": "/media/cnc-bottle-opener/cnc-bottle-opener-01.png",
+        "thumb": "/media/cnc-bottle-opener/thumbs/cnc-bottle-opener-01.jpg"
+      },
+      {
+        "src": "/media/cnc-bottle-opener/cnc-bottle-opener-02.png",
+        "thumb": "/media/cnc-bottle-opener/thumbs/cnc-bottle-opener-02.jpg"
+      },
+      {
+        "src": "/media/cnc-bottle-opener/cnc-bottle-opener-03.png",
+        "thumb": "/media/cnc-bottle-opener/thumbs/cnc-bottle-opener-03.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/media/cnc-bottle-opener/cnc-bottle-opener-video-01.mp4"
+      }
+    ]
+  },
+  "3d-printing-for-functional-design": {
+    "images": [
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-01.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-01.jpg"
+      },
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-02.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-02.jpg"
+      },
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-03.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-03.jpg"
+      },
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-04.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-04.jpg"
+      },
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-05.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-05.jpg"
+      },
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-06.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-06.jpg"
+      },
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-07.png",
+        "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-07.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-video-01.mp4"
+      }
+    ]
+  },
+  "aluminium-cans-to-sapphire": {
+    "images": [
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-01.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-01.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-02.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-02.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-03.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-03.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-04.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-04.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-05.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-05.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-06.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-06.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-07.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-07.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-08.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-08.jpg"
+      },
+      {
+        "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-09.png",
+        "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-09.jpg"
+      }
+    ],
+    "videos": []
+  },
+  "early-electronics": {
+    "images": [],
+    "videos": [
+      {
+        "src": "/media/early-electronics/early-electronics-video-01.mp4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,553 @@
+﻿{
+  "projects": [
+    {
+      "slug": "desktop-robot-arm",
+      "title": "Desktop Robot Arm",
+      "category": "Advanced Robotics",
+      "year": "TODO: Year",
+      "featured": true,
+      "summary": "A 4-DOF robot arm built from scratch using NEMA 17 stepper motors and an Arduino Uno with CNC shield control. Each joint uses a different gearbox architecture to study mechanical power transmission.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Arduino Uno",
+        "CNC Shield",
+        "NEMA 17 stepper motors",
+        "3D printing",
+        "Custom gearboxes"
+      ],
+      "tags": [
+        "robotics",
+        "gearboxes",
+        "mechanical-design",
+        "3d-printing",
+        "control"
+      ],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Osford1"
+        }
+      ],
+      "sections": {
+        "overview": "Each joint uses a distinct gearbox design (spur gear planetary, cycloidal, and cycloidal planetary). The system is controlled by user-specified joint angles via the Arduino IDE serial monitor.",
+        "build": "Version 1 used a 25:1 spur gear planetary (Joint 1), 20:1 cycloidal (Joint 2), and 10:1 cycloidal planetary (Joint 3). Version 2 upgraded Joint 2 to a 100:1 cycloidal planetary gearbox to address backlash and precision issues.",
+        "design": "Gearbox design philosophy compared spur gear planetary, cycloidal drive, and cycloidal planetary architectures. Cycloidal tooth profiles provide near-zero backlash through continuous rolling contact and high tooth overlap.",
+        "results": "Successfully designed, manufactured, and integrated four distinct gearbox architectures in a single robotic system.",
+        "futureWork": "Gripper under development. TODO: add next iteration goals."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-01.png",
+            "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-01.jpg",
+            "alt": "Desktop robot arm image 1"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-02.png",
+            "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-02.jpg",
+            "alt": "Desktop robot arm image 2"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-03.png",
+            "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-03.jpg",
+            "alt": "Desktop robot arm image 3"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-04.png",
+            "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-04.jpg",
+            "alt": "Desktop robot arm image 4"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-05.png",
+            "thumb": "/media/desktop-robot-arm/thumbs/desktop-robot-arm-05.jpg",
+            "alt": "Desktop robot arm image 5"
+          }
+        ],
+        "videos": [
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-video-01.mp4",
+            "label": "Robot arm motion test 1"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-video-02.mp4",
+            "label": "Robot arm motion test 2"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-video-03.mp4",
+            "label": "Robot arm motion test 3"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-video-04.mp4",
+            "label": "Robot arm motion test 4"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-video-05.mp4",
+            "label": "Robot arm motion test 5"
+          },
+          {
+            "src": "/media/desktop-robot-arm/desktop-robot-arm-video-06.mp4",
+            "label": "Robot arm motion test 6"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "humanoid-torso",
+      "title": "Humanoid Torso",
+      "category": "Humanoid Robotics",
+      "year": "TODO: Year",
+      "featured": true,
+      "summary": "A modular humanoid torso designed for expansion with electronics storage, a rigid aluminum extrusion frame, and a low-friction rotation base.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Aluminum extrusion",
+        "PLA 3D printing",
+        "Dynamixel motor",
+        "Custom gears"
+      ],
+      "tags": [
+        "robotics",
+        "mechanical-design",
+        "manufacturing",
+        "modular"
+      ],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Osford1"
+        }
+      ],
+      "sections": {
+        "overview": "A modular torso system designed for continuous expansion and adaptability, enabling storage for electronics while maintaining structural integrity.",
+        "build": "Expandable MDF storage boards for electronics, an aluminum extrusion frame with T-nuts for adjustable sizing, and a PLA case assembled with wood filler and paint for a clean finish.",
+        "design": "A rotation mechanism combines a lazy Susan bearing with a custom gear system driven by a Dynamixel motor for precise motion.",
+        "results": "Demonstrated a modular architecture that supports future expansion without redesign.",
+        "futureWork": "TODO: add planned upgrades and integration roadmap."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/humanoid-torso/humanoid-torso-01.png",
+            "thumb": "/media/humanoid-torso/thumbs/humanoid-torso-01.jpg",
+            "alt": "Humanoid torso image 1"
+          },
+          {
+            "src": "/media/humanoid-torso/humanoid-torso-02.png",
+            "thumb": "/media/humanoid-torso/thumbs/humanoid-torso-02.jpg",
+            "alt": "Humanoid torso image 2"
+          },
+          {
+            "src": "/media/humanoid-torso/humanoid-torso-03.png",
+            "thumb": "/media/humanoid-torso/thumbs/humanoid-torso-03.jpg",
+            "alt": "Humanoid torso image 3"
+          }
+        ],
+        "videos": [
+          {
+            "src": "/media/humanoid-torso/humanoid-torso-video-01.mp4",
+            "label": "Torso rotation demo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "humanoid-head-mechanism",
+      "title": "Humanoid Head Mechanism",
+      "category": "Humanoid Robotics",
+      "year": "TODO: Year",
+      "featured": true,
+      "summary": "A differential head control mechanism that achieves two degrees of freedom with only two motors using clever gearing.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Fusion 360",
+        "3D printing",
+        "Python control"
+      ],
+      "tags": [
+        "robotics",
+        "mechanical-design",
+        "differential",
+        "control"
+      ],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Osford1"
+        }
+      ],
+      "sections": {
+        "overview": "Inspired by wrist differential mechanisms, this head control system achieves nod and spin using two motors.",
+        "build": "Designed in Fusion 360, rapidly prototyped via 3D printing, and controlled using Python.",
+        "design": "Opposite motor rotation results in nodding; same direction rotation results in spinning. 2:1 gear ratio with 360° rotation range.",
+        "results": "Demonstrated 2-DOF motion with a compact differential mechanism.",
+        "futureWork": "TODO: add integration plans with torso and sensors."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-01.png",
+            "thumb": "/media/humanoid-head-mechanism/thumbs/humanoid-head-mechanism-01.jpg",
+            "alt": "Humanoid head mechanism image 1"
+          },
+          {
+            "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-02.png",
+            "thumb": "/media/humanoid-head-mechanism/thumbs/humanoid-head-mechanism-02.jpg",
+            "alt": "Humanoid head mechanism image 2"
+          },
+          {
+            "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-03.png",
+            "thumb": "/media/humanoid-head-mechanism/thumbs/humanoid-head-mechanism-03.jpg",
+            "alt": "Humanoid head mechanism image 3"
+          }
+        ],
+        "videos": [
+          {
+            "src": "/media/humanoid-head-mechanism/humanoid-head-mechanism-video-01.mp4",
+            "label": "Head mechanism motion demo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "obstacle-avoiding-robot",
+      "title": "Obstacle Avoiding Robot",
+      "category": "Mobile Robotics",
+      "year": "TODO: Year",
+      "featured": false,
+      "summary": "A car-like robot that detects obstacles with ultrasonic sensors and navigates around them autonomously.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Arduino Uno",
+        "Adafruit motor shield",
+        "Ultrasonic sensors",
+        "OnShape",
+        "C programming"
+      ],
+      "tags": [
+        "robotics",
+        "autonomy",
+        "sensors",
+        "mobile"
+      ],
+      "links": [],
+      "sections": {
+        "overview": "Self-directed project outside university coursework to design and build an autonomous obstacle-avoiding robot.",
+        "build": "Chassis modeled in OnShape CAD with component-fit validation. Hardware includes Arduino Uno, Adafruit motor shield, three ultrasonic sensors, DC motors, wheels, and a battery holder.",
+        "design": "Control logic continuously monitors distance, detects obstacles with thresholds, and performs avoidance maneuvers.",
+        "results": "Successfully demonstrated autonomous obstacle detection and avoidance in real-world tests.",
+        "futureWork": "TODO: add future sensor upgrades or path planning improvements."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/obstacle-avoiding-robot/obstacle-avoiding-robot-01.png",
+            "thumb": "/media/obstacle-avoiding-robot/thumbs/obstacle-avoiding-robot-01.jpg",
+            "alt": "Obstacle avoiding robot image 1"
+          }
+        ],
+        "videos": [
+          {
+            "src": "/media/obstacle-avoiding-robot/obstacle-avoiding-robot-video-01.mp4",
+            "label": "Obstacle avoidance demo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vision-guiding-robot",
+      "title": "Vision Guiding Robot",
+      "category": "Mobile Robotics",
+      "year": "TODO: Year",
+      "featured": false,
+      "summary": "A university project using Simulink and state models to follow a line, detect an object, and move it to a target location.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Simulink",
+        "State models",
+        "SolidWorks",
+        "3D printing"
+      ],
+      "tags": [
+        "robotics",
+        "control",
+        "vision",
+        "simulink"
+      ],
+      "links": [],
+      "sections": {
+        "overview": "First university project using Simulink to control a robot that follows a line, detects an object, picks it up, and places it in a designated location.",
+        "build": "Behavior controlled with Simulink state models and a gripper modeled in SolidWorks and 3D printed.",
+        "design": "State-machine logic coordinated sensor input with movement and manipulation.",
+        "results": "The robot did not complete the full course due to time constraints, but it established foundational CAD, control, and debugging skills.",
+        "futureWork": "TODO: add what you would improve with more time."
+      },
+      "media": {
+        "images": [],
+        "videos": [
+          {
+            "src": "/media/vision-guiding-robot/vision-guiding-robot-video-01.mp4",
+            "label": "Vision guiding robot demo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cnc-bottle-opener",
+      "title": "CNC Bottle Opener",
+      "category": "Manufacturing & Fabrication",
+      "year": "TODO: Year",
+      "featured": false,
+      "summary": "A complete CAD-to-CAM-to-machine workflow project to design and mill a functional bottle opener.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Fusion 360",
+        "CAM",
+        "Tormach 1100 MX"
+      ],
+      "tags": [
+        "manufacturing",
+        "cnc",
+        "cad-cam"
+      ],
+      "links": [],
+      "sections": {
+        "overview": "Learn CNC milling operation by designing and manufacturing a bottle opener from raw stock to finished part.",
+        "build": "Fusion 360 modeling, CAM programming, simulation and verification, and machining on a Tormach 1100 MX.",
+        "design": "Toolpath planning and workholding setup with quality inspection.",
+        "results": "Completed a precise, functional bottle opener through a full digital-to-physical workflow.",
+        "futureWork": "TODO: add planned design iterations or finish improvements."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/cnc-bottle-opener/cnc-bottle-opener-01.png",
+            "thumb": "/media/cnc-bottle-opener/thumbs/cnc-bottle-opener-01.jpg",
+            "alt": "CNC bottle opener image 1"
+          },
+          {
+            "src": "/media/cnc-bottle-opener/cnc-bottle-opener-02.png",
+            "thumb": "/media/cnc-bottle-opener/thumbs/cnc-bottle-opener-02.jpg",
+            "alt": "CNC bottle opener image 2"
+          },
+          {
+            "src": "/media/cnc-bottle-opener/cnc-bottle-opener-03.png",
+            "thumb": "/media/cnc-bottle-opener/thumbs/cnc-bottle-opener-03.jpg",
+            "alt": "CNC bottle opener image 3"
+          }
+        ],
+        "videos": [
+          {
+            "src": "/media/cnc-bottle-opener/cnc-bottle-opener-video-01.mp4",
+            "label": "CNC machining demo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "3d-printing-for-functional-design",
+      "title": "3D Printing for Functional Design",
+      "category": "Manufacturing & Fabrication",
+      "year": "TODO: Year",
+      "featured": false,
+      "summary": "Functional and artistic 3D printing projects including a print-in-place phone stand, a lithophane, and glow-in-the-dark statues.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "OnShape",
+        "Bambu Studio",
+        "3D printing"
+      ],
+      "tags": [
+        "3d-printing",
+        "design",
+        "manufacturing"
+      ],
+      "links": [],
+      "sections": {
+        "overview": "Projects ranging from functional mechanisms to artistic pieces, demonstrating versatility in additive manufacturing.",
+        "build": "Phone stand designed as a print-in-place mechanism for a university CAD workshop with full documentation. Lithophane created using AI-powered image-to-3D workflows in Bambu Studio. Glow statues created from photo-to-cartoon to statue pipeline.",
+        "design": "Material selection includes glow-in-the-dark filament for luminous effects.",
+        "results": "Delivered functional and visual outcomes across multiple printing styles.",
+        "futureWork": "TODO: add new print ideas or workshop outcomes."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-01.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-01.jpg",
+            "alt": "3D printing project image 1"
+          },
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-02.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-02.jpg",
+            "alt": "3D printing project image 2"
+          },
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-03.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-03.jpg",
+            "alt": "3D printing project image 3"
+          },
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-04.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-04.jpg",
+            "alt": "3D printing project image 4"
+          },
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-05.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-05.jpg",
+            "alt": "3D printing project image 5"
+          },
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-06.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-06.jpg",
+            "alt": "3D printing project image 6"
+          },
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-07.png",
+            "thumb": "/media/3d-printing-for-functional-design/thumbs/3d-printing-for-functional-design-07.jpg",
+            "alt": "3D printing project image 7"
+          }
+        ],
+        "videos": [
+          {
+            "src": "/media/3d-printing-for-functional-design/3d-printing-for-functional-design-video-01.mp4",
+            "label": "3D printing demo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "aluminium-cans-to-sapphire",
+      "title": "Aluminium Cans to Sapphire",
+      "category": "Foundation Projects",
+      "year": "TODO: Year",
+      "featured": false,
+      "summary": "A science-fair project that launched the engineering journey: transforming aluminum cans into aluminum oxide crystals and ruby through a multi-step process.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "DIY foundry",
+        "Induction furnace",
+        "Arc welder",
+        "Bunsen burner",
+        "Oxyhydrogen torch"
+      ],
+      "tags": [
+        "chemistry",
+        "materials",
+        "foundations"
+      ],
+      "links": [],
+      "sections": {
+        "overview": "Inspired by a friend's joke about turning aluminum cans into ruby, this project won science fair awards and became the start of an engineering journey.",
+        "build": "Step 1: collect and melt aluminum cans to obtain pure aluminum. Step 2: convert to aluminum chloride using HCl, then to aluminum hydroxide and aluminum oxide. Step 3: add chromium oxide to produce ruby; an alternate route produced sapphire.",
+        "design": "Route 2 was developed to avoid chlorine gas from Route 1. Safety note in the original project: no injuries occurred.",
+        "results": "Produced orange crystal (iron impurities) and ruby (fluorescent under UV).",
+        "futureWork": "TODO: add documentation or repeatable lab-safe process summary."
+      },
+      "media": {
+        "images": [
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-01.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-01.jpg",
+            "alt": "Aluminium to sapphire project image 1"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-02.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-02.jpg",
+            "alt": "Aluminium to sapphire project image 2"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-03.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-03.jpg",
+            "alt": "Aluminium to sapphire project image 3"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-04.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-04.jpg",
+            "alt": "Aluminium to sapphire project image 4"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-05.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-05.jpg",
+            "alt": "Aluminium to sapphire project image 5"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-06.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-06.jpg",
+            "alt": "Aluminium to sapphire project image 6"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-07.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-07.jpg",
+            "alt": "Aluminium to sapphire project image 7"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-08.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-08.jpg",
+            "alt": "Aluminium to sapphire project image 8"
+          },
+          {
+            "src": "/media/aluminium-cans-to-sapphire/aluminium-cans-to-sapphire-09.png",
+            "thumb": "/media/aluminium-cans-to-sapphire/thumbs/aluminium-cans-to-sapphire-09.jpg",
+            "alt": "Aluminium to sapphire project image 9"
+          }
+        ],
+        "videos": []
+      }
+    },
+    {
+      "slug": "early-electronics",
+      "title": "Early Electronics",
+      "category": "Foundation Projects",
+      "year": "TODO: Year",
+      "featured": false,
+      "summary": "A traffic lights circuit that established foundational electronics and programming skills for later robotics work.",
+      "roles": [
+        "TODO: Role"
+      ],
+      "tools": [
+        "Arduino Uno",
+        "LEDs",
+        "Inductors",
+        "C programming"
+      ],
+      "tags": [
+        "electronics",
+        "embedded",
+        "foundations"
+      ],
+      "links": [],
+      "sections": {
+        "overview": "A simple traffic light system designed as a first independent circuit project.",
+        "build": "Circuit components include Arduino Uno, red/yellow/green LEDs, and inductors for circuit protection. Programmed in C with timing logic for realistic sequencing.",
+        "design": "Focused on circuit design, component placement, and breadboarding.",
+        "results": "Built foundational skills in embedded programming, prototyping, and debugging.",
+        "futureWork": "TODO: add how this informed later robotics work."
+      },
+      "media": {
+        "images": [],
+        "videos": [
+          {
+            "src": "/media/early-electronics/early-electronics-video-01.mp4",
+            "label": "Traffic lights circuit demo"
+          }
+        ]
+      }
+    }
+  ]
+}

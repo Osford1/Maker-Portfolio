@@ -1,0 +1,485 @@
+[
+  {
+    "slide": 1,
+    "texts": [
+      "Maker Portfolio",
+      "Project\nPortfolio",
+      "Teo Yu Dong",
+      "张煜东",
+      "2024",
+      "3rd year Mechatronics Undergraduate at \nThe University of Melbourne",
+      "github.com/Osford1",
+      "LinkedIn : www.linkedin.com/in/yu-dong-teo-7b7048294"
+    ]
+  },
+  {
+    "slide": 2,
+    "texts": [
+      "Overview",
+      "01",
+      "Advanced Robotics Projects",
+      "Precision motion control through custom gearbox design",
+      "02",
+      "Humanoid Robotics",
+      "Modular design for adaptive humanoid systems",
+      "03",
+      "Mobile Robotics",
+      "Autonomous systems and locomotion",
+      "04",
+      "Manufacturing & Fabrication",
+      "Precision manufacturing from digital to physical",
+      "05",
+      "Foundation Projects",
+      "Where my engineering journey began"
+    ]
+  },
+  {
+    "slide": 3,
+    "texts": [
+      "Advanced Robotics\nProjects",
+      "01"
+    ]
+  },
+  {
+    "slide": 4,
+    "texts": [
+      "ADVANCED ROBOTICS",
+      "Desktop Robot Arm",
+      "Project Overview",
+      "A 4-DOF robot arm built from scratch using NEMA 17 motors and Arduino Uno with CNC shield control. Each joint employs a different gearbox design, creating a comprehensive study in mechanical power transmission.",
+      "Version 1 Specifications",
+      "Joint 1:",
+      "25:1 spur gear planetary gearbox",
+      "Joint 2:",
+      "20:1 cycloidal gearbox / 100:1 cycloidal planetary gearbox",
+      "Joint 3:",
+      "10:1 cycloidal planetary gearbox",
+      "Gripper:",
+      "Under development",
+      "Version 2 Improvement",
+      "Upgraded Joint 2 to a 100:1 ratio cycloidal planetary gearbox, addressing backlash and motion precision issues from the original design.",
+      "Technical Stack",
+      "Arduino Uno",
+      "Main Controller",
+      "CNC Shield",
+      "Motor Driver",
+      "NEMA 17",
+      "Stepper Motors",
+      "3D Printed",
+      "Custom Gearboxes & arm structures",
+      "Key Achievement",
+      "Successfully designed, manufactured, and integrated four distinct gearbox architectures in a single robotic system, demonstrating deep understanding of mechanical power transmission principles.",
+      "Control System",
+      "Each joint responds to a user-specified angle inputted through Arduino IDE serial monitor",
+      "github.com/Osford1"
+    ]
+  },
+  {
+    "slide": 5,
+    "texts": [
+      "ADVANCED ROBOTICS",
+      "Gearbox Design Philosophy",
+      "1",
+      "Spur Gear Planetary",
+      "25:1 Ratio",
+      "Design",
+      "Two-phase planetary using standard spur gears for speed reduction and torque multiplication.",
+      "Challenge",
+      "Backlash issue: Gear spacing creates shock when switching directions due to momentary gear separation.",
+      "2",
+      "Cycloidal Drive",
+      "20:1 Ratio",
+      "Design",
+      "Cycloidal disc mechanism for high reduction in compact form.",
+      "Challenge",
+      "Tolerance nightmare: Required multiple redesigns and reprints. Screw dowels caused backlash and elliptical output motion.",
+      "3",
+      "Cycloidal Planetary",
+      "10:1 Ratio",
+      "Design",
+      "Uses cycloidal herringbone gears for self-alignment and zero backlash.",
+      "Advantage",
+      "3D print optimized: Thicker profiles and larger root fillets reduce stress concentration and tolerance sensitivity.",
+      "Engineering Insight: Cycloidal tooth profiles provide near-zero backlash through continuous rolling contact and high tooth overlap, while herringbone geometry cancels axial forces, making this design superior for precision robotics applications.",
+      "100:1 Ratio"
+    ]
+  },
+  {
+    "slide": 6,
+    "texts": [
+      "ADVANCED ROBOTICS",
+      "Version 2",
+      "Problem Analysis: V1 Joint 2",
+      "Issue 1: Excessive Backlash",
+      "Output shaft connected using screws as dowels created significant play in the system",
+      "Issue 2: Motion Delay",
+      "Backlash caused delayed response in output motion, reducing precision",
+      "Issue 3: Elliptical Output",
+      "Imperfections resulted in non-circular motion path",
+      "Root Cause",
+      "Limited materials and tolerance issues in the cycloidal design necessitated a complete redesign using proven cycloidal planetary architecture.",
+      "Solution: 100:1 Cycloidal Planetary",
+      "Design Evolution",
+      "Two-phase version of the successful 10:1 gearbox design",
+      "Performance Gain",
+      "5x higher ratio (100:1 vs 20:1) with improved precision",
+      "Manufacturing Success",
+      "Leveraged lessons from Joint 3 to achieve proper tolerances",
+      "Takeaways: Engineering excellence emerges from iterative refinement. Each failure provides data for the next design, transforming theoretical knowledge into practical mastery."
+    ]
+  },
+  {
+    "slide": 7,
+    "texts": [
+      "02",
+      "Humanoid\nRobotics"
+    ]
+  },
+  {
+    "slide": 8,
+    "texts": [
+      "HUMANOID ROBOTICS",
+      "Humanoid Torso",
+      "Design Philosophy",
+      "A modular torso system designed for continuous expansion and adaptability. The architecture enables easy addition of storage and electronics while maintaining structural integrity.",
+      "Structural Components",
+      "Expandable MDF Storage",
+      "Modular boards for electronics housing",
+      "Aluminum Extrusion Frame",
+      "T-nuts for adjustable sizing",
+      "PLA Case Manufacturing",
+      "Wood filler finish with paint",
+      "Manufacturing Process",
+      "Case designed in sections for printability, assembled with wood filler for seamless finish, then painted for professional appearance.",
+      "Rotation Mechanism",
+      "Lazy Susan Structure",
+      "Low-friction rotation base",
+      "Custom Gear System",
+      "Designed for precise motion",
+      "Dynamixel Motor",
+      "User-controlled angle input",
+      "Control System",
+      "Torso responds to user specified angle inputs through programmed motor control.",
+      "Innovation: The modular approach enables future expansion without redesign, demonstrating forward-thinking engineering for evolving project requirements.",
+      "github.com/Osford1"
+    ]
+  },
+  {
+    "slide": 9,
+    "texts": [
+      "HUMANOID ROBOTICS",
+      "Humanoid Torso",
+      "Lazy Susan Structure",
+      "Low-friction rotation base",
+      "PLA Case Manufacturing",
+      "Wood filler finish with paint",
+      "Expandable MDF Storage",
+      "Modular boards for electronics housing",
+      "Aluminum Extrusion Frame",
+      "T-nuts for adjustable sizing"
+    ]
+  },
+  {
+    "slide": 10,
+    "texts": [
+      "HUMANOID ROBOTICS",
+      "Humanoid Head Mechanism",
+      "Design Inspiration",
+      "Inspired by wrist differential mechanisms, this head control system achieves two degrees of freedom using only two motors through clever differential gearing.",
+      "Mechanism Operation",
+      "Opposite Motion",
+      "Motors rotate in opposite directions",
+      "Result: Head Nods",
+      "Same Direction",
+      "Motors rotate in same direction",
+      "Result: Head Spins",
+      "Technical Specifications",
+      "2:1",
+      "Gear Ratio",
+      "2",
+      "DOF with 2 Motors",
+      "360°",
+      "Rotation Range",
+      "Development Workflow",
+      "1",
+      "Fusion 360 Design",
+      "Parametric 3D modeling",
+      "2",
+      "3D Printing",
+      "Rapid prototyping",
+      "3",
+      "Python Control",
+      "Software implementation",
+      "Code Repository",
+      "Complete control algorithms and motor coordination logic documented on GitHub.",
+      "github.com/Osford1",
+      "Engineering Principle: Differential mechanisms achieve multiple degrees of freedom with fewer actuators, reducing weight, cost, and control complexity"
+    ]
+  },
+  {
+    "slide": 11,
+    "texts": [
+      "HUMANOID ROBOTICS",
+      "Humanoid Head Mechanism",
+      "HUMANOID ROBOTICS"
+    ]
+  },
+  {
+    "slide": 12,
+    "texts": [
+      "03",
+      "Mobile\nRobotics"
+    ]
+  },
+  {
+    "slide": 13,
+    "texts": [
+      "MOBILE ROBOTICS",
+      "Obstacle Avoiding Robot",
+      "Project Objective",
+      "Design and build a car-like robot capable of detecting obstacles and autonomously navigating around them. A self-directed project outside university coursework.",
+      "Hardware Architecture",
+      "Arduino Uno",
+      "Main controller",
+      "Adafruit Shield",
+      "Motor driver",
+      "3× Ultrasonic",
+      "Distance sensors",
+      "Battery Holder",
+      "Power system",
+      "DC motors + wheels + metal ball caster",
+      "Design Process",
+      "Complete chassis designed in OnShape CAD, ensuring proper component fitment before manufacturing.",
+      "Software Implementation",
+      "C Programming",
+      "Custom firmware for sensor reading, decision making, and motor control",
+      "Control Logic",
+      "Continuous distance monitoring",
+      "Threshold-based obstacle detection",
+      "Directional avoidance maneuvering",
+      "Project Outcome",
+      "Successfully demonstrated autonomous obstacle detection and avoidance behavior in real-world testing scenarios."
+    ]
+  },
+  {
+    "slide": 14,
+    "texts": [
+      "MOBILE ROBOTICS",
+      "Obstacle Avoiding Robot"
+    ]
+  },
+  {
+    "slide": 15,
+    "texts": [
+      "MOBILE ROBOTICS",
+      "Vision Guiding Robot",
+      "University First Project",
+      "The inaugural university project: use Simulink to control a robot to follow a line, detect an object, pick it up, and place it in a designated location.",
+      "Technical Stack",
+      "Simulink",
+      "Control logic",
+      "State Models",
+      "Behavior control",
+      "SolidWorks",
+      "3D modeling",
+      "3D Printing",
+      "Gripper fab",
+      "Project Outcome",
+      "Robot didn't complete the full course due to time constraints but provided invaluable learning experiences.",
+      "Key Learnings",
+      "Perseverance",
+      "Programs crashed repeatedly, required restarts from scratch",
+      "3D Modeling Intro",
+      "First SolidWorks experience for gripper design",
+      "3D Printing Intro",
+      "Learned slicing workflow and print parameters",
+      "Simulink Mastery",
+      "State models for robot behavior logic",
+      "Hardware Debugging",
+      "Code upload issues, collaborative troubleshooting",
+      "Foundation Building: This project established the fundamental skills: CAD, control systems, 3D printing, debugging."
+    ]
+  },
+  {
+    "slide": 16,
+    "texts": [
+      "MOBILE ROBOTICS",
+      "Vision Guiding Robot"
+    ]
+  },
+  {
+    "slide": 17,
+    "texts": [
+      "04",
+      "Manufacturing &\nFabrication"
+    ]
+  },
+  {
+    "slide": 18,
+    "texts": [
+      "MANUFACTURING",
+      "CNC Bottle Opener",
+      "Project Objective",
+      "Learn CNC milling machine operation by designing and manufacturing a functional bottle opener from raw stock to finished product.",
+      "Complete Workflow",
+      "1",
+      "Fusion 360 Modeling",
+      "Parametric 3D part design",
+      "2",
+      "CAM Programming",
+      "Toolpaths and operations",
+      "3",
+      "Verification",
+      "Simulation and checks",
+      "4",
+      "Manufacturing",
+      "Tormach 1100 MX execution",
+      "Equipment Used",
+      "Tormach 1100 MX",
+      "CNC Milling Machine",
+      "Workholding setup",
+      "Tool selection and offsets",
+      "G-code execution",
+      "Quality inspection",
+      "Skills Demonstrated",
+      "CAD/CAM",
+      "CNC Operation",
+      "Toolpath Design",
+      "Manufacturing",
+      "Manufacturing Competency: Complete digital to physical workflow mastery, from CAD design through CAM programming to precision CNC machining."
+    ]
+  },
+  {
+    "slide": 19,
+    "texts": [
+      "MANUFACTURING",
+      "CNC Bottle Opener"
+    ]
+  },
+  {
+    "slide": 20,
+    "texts": [
+      "MANUFACTURING",
+      "3D Printing for Functional Design",
+      "Phone Stand",
+      "Design Innovation",
+      "Print-in-place design requiring zero assembly",
+      "Project Context",
+      "Designed for university CAD workshop with complete documentation",
+      "Software",
+      "OnShape with participant instruction guides",
+      "Lithophane",
+      "Technology",
+      "AI-powered image to 3D using Bambu Studio",
+      "Result",
+      "Family portrait that reveals image when backlit",
+      "Glow Statues",
+      "Workflow",
+      "Photo → ChatGPT cartoon → statue → Bambu Studio",
+      "Material",
+      "Glow-in-the-dark filament for luminous effect",
+      "Additive Manufacturing skill: From functional mechanical designs to artistic applications, demonstrates versatility across the full spectrum of 3D printing capabilities."
+    ]
+  },
+  {
+    "slide": 21,
+    "texts": [
+      "MANUFACTURING",
+      "3D Printing for Functional Design"
+    ]
+  },
+  {
+    "slide": 22,
+    "texts": [
+      "05",
+      "Foundation\nProjects",
+      "My inception point, where everything began"
+    ]
+  },
+  {
+    "slide": 23,
+    "texts": [
+      "FOUNDATION",
+      "Aluminium Cans to Sapphire: The Project That Started It All",
+      "Origin Story",
+      "Born from a friend's joke: \"Wouldn't it be cool if we turned aluminium cans into ruby?\" This project launched my engineering journey and won science fair awards.",
+      "Chemical Process",
+      "Step 1: Collection",
+      "Gather aluminium cans",
+      "Step 2: Purification",
+      "Melt cans to obtain pure aluminium",
+      "Step 3: Conversion",
+      "Dissolve in HCl → AlCl₃",
+      "Safety Note: No injuries occurred. Route 2 developed to avoid chlorine gas from Route 1.",
+      "Two Process Routes",
+      "Route 1 (Discontinued)",
+      "AlCl₃ → Thermal decomposition → Al₂O₃",
+      "Oxyhydrogen flame → Crystallized Al₂O₃ (Sapphire)",
+      "Result: Orange crystal (iron impurities)",
+      "Route 2 (Improved)",
+      "AlCl₃ + NaOH → AlOH + NaCl",
+      "Wash → Thermal decomposition → Al₂O₃",
+      "Add Cr₂O₃ → Ruby (fluorescent under UV)",
+      "Equipment Used",
+      "DIY Foundry",
+      "Induction Furnace",
+      "Arc Welder",
+      "Bunsen Burner",
+      "Oxyhydrogen Torch"
+    ]
+  },
+  {
+    "slide": 24,
+    "texts": [
+      "FOUNDATION",
+      "Aluminium Cans to Sapphire: The Project That Started It All",
+      "DIY Foundry",
+      "Aluminum Ingot",
+      "AlCL3 & Al2O3",
+      "AlOH & Al2O3",
+      "Final Products"
+    ]
+  },
+  {
+    "slide": 25,
+    "texts": [
+      "FOUNDATION",
+      "Early Electronics for Building Fundamentals",
+      "Traffic Lights Circuit",
+      "My first independent circuit project, a simple traffic light system that established the electronic foundation for all future robotics work.",
+      "Circuit Components",
+      "Arduino Uno",
+      "Microcontroller brain",
+      "LEDs (Red/Yellow/Green)",
+      "Visual indicators",
+      "Inductors",
+      "Circuit protection",
+      "Programming",
+      "Coded in C language, implementing timing logic for realistic traffic light sequencing.",
+      "Fundamentals Established",
+      "Circuit Design",
+      "Component selection and placement",
+      "Embedded Programming",
+      "Microcontroller logic and timing",
+      "Prototyping",
+      "Breadboarding and testing",
+      "Debugging",
+      "Troubleshooting and iteration",
+      "Foundation for Growth",
+      "These basic skills: circuit design, programming, debugging"
+    ]
+  },
+  {
+    "slide": 26,
+    "texts": [
+      "FOUNDATION",
+      "Early Electronics: Building Fundamentals"
+    ]
+  },
+  {
+    "slide": 27,
+    "texts": [
+      "For more to come \u000bThanks!"
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+﻿@import "tailwindcss";
+
+:root {
+  --paper: #f6f2ea;
+  --ink: #0f0f0f;
+  --muted: #5e5b55;
+  --accent: #c8ff47;
+  --accent-2: #ff7a59;
+  --border: #0f0f0f;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent2: var(--accent-2);
+  --color-border: var(--border);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at 12px 12px, rgba(0, 0, 0, 0.08) 1px, transparent 0) 0 0 / 24px 24px,
+    linear-gradient(180deg, #f6f2ea 0%, #efe9de 100%);
+  color: var(--ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.main-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  border: 2px solid var(--border);
+  background: #fffdf7;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+}
+
+.badge {
+  border: 1.5px solid var(--border);
+  background: var(--accent);
+  color: var(--ink);
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.btn {
+  border: 2px solid var(--border);
+  background: var(--accent);
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: 999px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  transition: transform 120ms ease;
+}
+
+.btn:hover {
+  transform: translate(-1px, -1px);
+}
+
+.btn-outline {
+  border: 2px solid var(--border);
+  background: transparent;
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: clamp(22px, 2vw, 28px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero-title {
+  font-size: clamp(36px, 5vw, 64px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.subtle {
+  color: var(--muted);
+}
